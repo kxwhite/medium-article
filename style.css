@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+@media(max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media(max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+.banner {
+  background-image: url("https://picsum.photos/id/413/2666/1500");
+  background-size: cover;
+  padding: 150px 450px 150px 450px;
+}
+
+body {
+  margin: 0px;
+}
+
+.body-text {
+  text-align: left;
+  justify-content: center;
+  margin: 50px 450px 50px 450px;
+}
+
+h1 {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.banner h2 {
+  font-family: 'Playfair Display';
+  color: lightgrey;
+  font-size: 32px;
+}
+
+.body-text h2 {
+  font-family: 'Playfair Display';
+  color: rgb(117, 117, 117);
+  font-size: 24px;
+  background-color: rgba(255, 222, 192, 0.349);
+  margin-right: 490px;
+}
+
+.body-text h2:hover {
+  background-color: rgba(255, 212, 157, 0.664);
+}
+
+
+h3 {
+  font-family : 'Poppins';
+  font-weight: 100;
+  color: darkgrey;
+  font-size: 24px;
+  margin: 30px 0px 5px 0px;
+}
+
+
+p {
+  font-family : 'Playfair Display';
+  color: rgb(41, 41, 41);
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0px;
+  /* margin: 0px 100px 0px 100px; */
+}
+
+a {
+  text-decoration: none;
+}
